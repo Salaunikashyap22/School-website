@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        .img-fluid{
+            height: 500px;
+            width: 900px;
+            overflow: hidden;
+            border: 2px solid white;
+        }
+        .img-fluid:hover{
+            transform: scaleX(-1);
+            border: 2px solid red;
+        }
+        #img1{
+            height: 200px;
+            width: 300px;
+            border: 2px solid green;
+            transition: all;
+            /* border-radius: 0px 12px; */
+        }
+        #img1:hover{
+            border: 4px solid red;
+            border-radius: 25px;
+           
+        }
+        #img2{
+            height:200px;
+            width: 300px;
+            margin-top: 20px;
+            border: 2px solid green;
+            /* border-radius: 0px 12px; */
+        }
+        #img2:hover{
+            border: 4px solid red;
+            border-radius: 25px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid text-success">
+        <div class="row">
+            <div class="col-lg-12">
+        <h2><marquee behavior="alternate" scrollamount="10x">KASHYAP PUBLIC SCHOOL BIJNOR</marquee></h2>
+    </div>
+</div>
+</div>
+
+    <div class="container-fluid mb-5 bg-danger">
+
+        <div class="row py-3">
+            <div class="col">
+                <nav class=" nav navbar navbar-expand-lg navbar-light">
+                    <a href="#" class="navbar-brand text-success"><h5>OUR COLLAGE</h5></a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="mynavbar">
+                        <ul class="nav navbar-nav navbar-brand">
+                            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+
+                            <li class="nav-item"><a href="gfaculty.html" class="nav-link">GOOD FACULTY</a></li>
+                            <li class="nav-item"><a href="addmision.html" class="nav-link">ADMISSION</a></li>
+                            <li class="nav-item"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+
+                            <li class="nav-item dropdown"><a href="facility.html" class="nav-link dropdown-toggle"
+                                data-toggle="dropdown">FACILITY</a>
+                                <div class="dropdown-menu" id="dd"><a href="transport.html" class="dropdown-item" id="f1">Transport Facility</a><a href="lab.html"
+                                    class="dropdown-item" id="f2">Lab</a><a href="dance.html" class="dropdown-item" id="f3">Dance class</a>
+                                    <a href="music.html" class="dropdown-item" id="f4">Music class</a>
+                                    <a href="health.html" class="dropdown-item" id="f5">Health Services</a>
+                                    <a href="libreary.html" class="dropdown-item" id="f6">Libreary</a>
+                                    <a href="lastevent.html" class="dropdown-item" id="f7">Last Events</a>
+                            </li>
+
+                            <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT US</a></li>
+
+                        </ul>
+
+
+                        
+                        <form class="navbar-form navbar-light" action="#" method="post">
+                            <div class="input-group">
+                                <input type="search" class="form-control" placeholder="search" name="" id="">
+                                <div class="input-group-btn btn btn-primary btn-sm">
+                                    <button class="btn btn-default"  id="btn" type="search" value="Search">
+                                        <button>SEARCH</button>
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+   
+        <div class="=container">
+            <div class="row">
+                <div class="col-lg-12 text-center text-danger">
+                    <h1>TRANSPORT FACILITY & RULES</h1>
+                        <h3>RULES AND REGULATIONS TRANSPORT FACILITY & RULES</h3>
+                    
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                   <img src="image1/transport1.jpg"  id="img1"alt="">
+                    <img src="image1/transport2.jpg" id="img2" alt="">
+                </div>
+                <div class="col-lg-8 display-6">
+                    <p><mark>Kashyap public school</mark> provides safe and reliable air-conditioned bus transportation
+                        to students who wish to avail
+                        this facility. The school has a luxury & air-conditioned fleet of buses with the best of safety
+                        arrangements available for the neighbouring areas. The students in school buses are accompanied
+                        by
+                        well-trained attendants/ escorts to ensure their safety.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 lead"><u>
+                        <h4>SCHOOL TRANSPORT RULES</h4>
+                    </u>
+                    <p>
+                        <b>1.</b>Transport facility will be made available on specified routes and designated stops
+                        only,
+                        at the sole discretion of the school management.<br><br>
+                        <b>2.</b>It is to understand that school transport, like any other vehicle on road, may get
+                        delayed sometimes
+                        due to traffic conditions, road conditions, or some technical fault. The parents should
+                        understand
+                        these practical situations and they should be at their best in cooperating towards the
+                        same.<br><br>
+                        <b>3.</b>The school transport routes are subject to change depending upon the requirements of
+                        the students and it is at the sole discretion of the school management.<br><br>
+                        <b>4.</b>For any addition or change in the route, the interested parent(s) may contact the
+                        Principal with a written request. The change may be allowed as per feasibility and
+                        availability.<br><br>
+                        <b>5.</b>School transport is an optional facility and it cannot be claimed as a matter of right
+                        by any student/ parent. The school management reserves the right to withdraw the school
+                        transport facility from any student without assigning any reason whatsoever.<br><br>
+                        <b>6.</b>The school transport is arranged by the school for a complete academic session. Thus
+                        school transport cannot be withdrawn between the academic session.<br><br>
+                        <b>7.</b>In case any parent wishes to withdraw from the school transport facility for the next
+                        academic session, he/ she is required to inform the school in writing in advance of the
+                        withdrawal otherwise one month's transport fee will be charged in lieu of one month's notice.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <img src="image1/transport3.jpg"  class="img-fluid" alt="">
+                </div>
+            </div>
+             </div>
+
+
+        <div class="container">
+            <div class="row">
+        <div class="col-lg-12">
+            <h4>DISCIPLINARY NORMS IN THE SCHOOL BUS</h4>
+            <p><b>1.</b>
+                All students using the school bus are expected to be on the left side of the school bus at their
+                designated bus stops at least ten minutes before the arrival time of the bus. The buses will not
+                wait for the latecomers. During the dropping time due to safety concerns, students will not be
+                dropped unescorted, instead, he/ she would be taken back to school and the parent would have to
+                pick the student from the school.<br><br>
+                <b>2.</b>The availability of school transport to the learners is subject to adherence to disciplinary
+                norms. Any misbehavior that distracts the driver is a serious violation and could harm someone.
+                Therefore, learners are required:<br><br>
+                <b>a.</b> to remain seated while the bus is in motion.<br><br>
+                <b>b.</b> to obey the instructions of the Bus Driver/ ln-charge.<br><br>
+                <b>c.</b> not to throw objects in or out of the bus.<br><br>
+                <b>d.</b> not to use indecent language in the bus with fellow pupils or the bus staff.<br><br>
+                <b>e.</b> not to damage the seats, curtains, etc. in the bus.<br><br>
+                <b>f.</b> not to fight or threaten other students in the bus.<br><br>
+                <b>g.</b> to abstain from any unruly behavior in the bus.
+            </p>
+        </div>
+        </div>
+        </div>
+
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <img src="image1/transport4.jpg"  class="img-fluid"alt="">
+                </div>
+            </div>
+             </div>
+
+
+
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-lg-4">
+                    <H4>OUR ADDRESS</H4>
+                    <h6>KASHYAP PUBLIC SCHOOL</h6>
+                    710-B,Kashyap public school Bijnor<br>
+                    near by Morrell park
+                </div>
+                <div class="col-lg-1"></div><BR><BR>
+                <div class="col-lg-2"><a href="about.html" class="link">ABOUT</a><BR><br><a href="gallery.html"
+                        class="link">GALLERY</a><BR><br><a href="facility.html" class="link">FACILITY</a><BR><br><a
+                        href="contact.html" class="link">CONTACT US</a></div><br><br>
+                <div class="col-lg-2"></div><BR><BR>
+                <div class="col-lg-3">
+                    <h6><a href="mailto:Salaunikashyap2@gmail.com">Salaunikashyap@gmail.com</a></h6>
+                    <h6>Call me <a href="tell:+8273143540">+91-8273143540</a></h6>
+                    <h6>Whatsapp<a href="https://api.whatsapp.com/send?phone=8273143540">+91-8273143540</a></h6>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+    </html>

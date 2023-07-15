@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+
+        .hh {
+            margin-top: 5px;
+            padding: 30px;
+            transition: all;
+        }
+
+        img:hover {
+            color: black;
+            transform: scaleX(-1);
+            transform: 3s transform;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid text-success">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>
+                    <marquee behavior="alternate" scrollamount="10x">KASHYAP PUBLIC SCHOOL BIJNOR</marquee>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5 bg-danger">
+
+        <div class="row py-3">
+            <div class="col">
+                <nav class=" nav navbar navbar-expand-lg navbar-light">
+                    <a href="#" class="navbar-brand text-success">
+                        <h5>OUR COLLAGE</h5>
+                    </a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- <div class="collapse navbar-collapse " id="mynavbar">
+                        <ul class="nav navbar-nav navbar-brand">
+                            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+
+                            <li class="nav-item"><a href="ourcourse.html" class="nav-link">GOOD FACULTY</a></li>
+                            <li class="nav-item"><a href="addmision.html" class="nav-link">ADMISSION</a></li>
+                            <li class="nav-item"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+
+                            <li class="nav-item"><a href="facility.html" class="nav-link">FACILITY</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT US</a></li>
+
+                        </ul> -->
+
+
+                    <div class="collapse navbar-collapse " id="mynavbar">
+                        <ul class="nav navbar-nav navbar-brand">
+                            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+
+                            <li class="nav-item"><a href="gfaculty.html" class="nav-link">GOOD FACULTY</a></li>
+                            <li class="nav-item"><a href="addmision.html" class="nav-link">ADMISSION</a></li>
+                            <li class="nav-item"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+
+                            <li class="nav-item dropdown"><a href="facility.html" class="nav-link dropdown-toggle"
+                                    data-toggle="dropdown">FACILITY</a>
+                                <div class="dropdown-menu" id="dd"><a href="transport.html" class="dropdown-item"
+                                        id="f1">Transport Facility</a><a href="lab.html" class="dropdown-item"
+                                        id="f2">Lab</a><a href="dance.html" class="dropdown-item" id="f3">Dance
+                                        class</a>
+                                    <a href="music.html" class="dropdown-item" id="f4">Music class</a>
+                                    <a href="health.html" class="dropdown-item" id="f5">Health Services</a>
+                                    <a href="libreary.html" class="dropdown-item" id="f7">Good Faculty</a>
+                                    <a href="lastevent.html" class="dropdown-item" id="f6">Last Events</a>
+
+                            </li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT US</a></li>
+
+                        </ul>
+
+
+
+                        <!-- <div>
+                            <ul class="nav navbar-nav navbar-brand">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><span class="glyphicon glyphicon-user"></span>Sign
+                                        Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><span
+                                            class="glyphicon glyphicon-log-in"></span>login</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <form class="navbar-form navbar-light" action="#" method="post">
+                            <div class="input-group">
+                                <input type="search" class="form-control" placeholder="search" name="" id="">
+                                <div class="input-group-btn btn btn-primary btn-sm">
+                                    <button class="btn btn-default" id="btn" type="search" value="Search">
+                                        <button>SEARCH</button>
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                <h1>500+ Words Essay on My School</h1>
+                Education is an essential part of our lives. We are nothing without knowledge, and education is what
+                separates us from others. The main step to acquiring education is enrolling oneself in a school.
+                School serves as the first learning place for most of the people. Similarly, it is the first spark
+                in receiving an education. In this essay on my school, I will tell you why I love my school and what
+                my school has taught me.<br><br><br>
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about1.jpg" class="hh" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    My school is my second home where I spend most of my time. Above all, it gives me a platform to do
+                    better in life and also builds my personality. I feel blessed to study in one of the most
+                    prestigious and esteemed schools in the city. In addition, my school has a lot of assets which makes
+                    me feel fortunate to be a part of it. Let us look at the essay on my school written
+                    below.
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about2.jpg" class="hh" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+  
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    We have all been to school and we have loved each and every moment we have spent over there as those
+                    were the building blocks of our lives. A school is a place where students are taught the
+                    fundamentals of life, as well as how to grow and survive in life. It instils in us values and
+                    principles that serve as the foundation for a child’s development.
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about3.jpg" class="hh" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+<div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    <h1>essay on my school</h1>
+                    From kindergarten through primary and secondary school, and subsequently, to faculty, school is a
+                    place where we always study, grow, and establish ourselves, socialize, be a friend, help others, and
+                    love and be loved. School is a buddy that will accompany us from the beginning of our youth till the
+                    conclusion of our lives. At school, we share all of our pleasures and sorrows, and we constantly
+                    rely on one another. This is made possible through the friendships we share. <br><br><br>
+            </div>
+            <div class="col-lg-4">
+ 
+                <img src="image/about4.jpg"class="hh" alt=""> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    My school strikes the perfect balance between modern education and vintage architecture. The vintage
+                    buildings of my school never fail to mesmerize me with their glorious beauty. However, their vintage
+                    architecture does not mean it is outdated, as it is well-equipped with all the contemporary gadgets.
+                    I see my school as a lighthouse of education bestowing knowledge as well as ethical conduct upon us.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+ 
+                <img src="image/about5.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    Teachers have the power to make or break a school. The teaching staff is regarded as the foundation
+                    of any educational society. It is their efforts to help kids learn and understand things that instil
+                    good habits and values in their students. While some concepts are simple to grasp, others
+                    necessitate the use of a skilled teacher to drive the home the idea with each pupil.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about6.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    Teachers have the power to make or break a school. The teaching staff is regarded as the foundation
+                    of any educational society. It is their efforts to help kids learn and understand things that instil
+                    good habits and values in their students. While some concepts are simple to grasp, others
+                    necessitate the use of a skilled teacher to drive the home the idea with each pupil.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about6.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    <h3>What has My School Taught Me?</h3>
+                    If someone asked me what I have learned from my school, I won’t be able to answer it in one
+                    sentence. For the lessons are irreplaceable and I can never be thankful enough for them. I learned
+                    to share because of my school. The power of sharing and sympathy was taught to me by my school. I
+                    learned how to be considerate towards animals and it is also one of the main reasons why I adopted a
+                    pet.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about7.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    School is an excellent place to learn how to be an adult before entering the real world. Those
+                    abilities pay dividends whether you choose to be the bigger person in an argument or simply complete
+                    your domestic tasks. When you open your mind to new ideas, you gain a lot of influence in society.
+                    Picking up unexpected hobbies on your own will teach you more about what you like to do than simply
+                    completing things for a grade.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about8.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    A school is a place where I developed my artistic skills which were further enhanced by my teachers.
+                    Subsequently, it led me to participate in inter-school completions through which I earned various
+                    awards. Most importantly, my school taught me how to face failures with grace and never give up on
+                    my ambitions, no matter what happens.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about9.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    Schools also offer a variety of extracurricular activities such as Scouts and Guides, sports,
+                    N.C.C., skating, school band, acting, dancing, singing, and so on. Our principal also used to give
+                    us a short lecture every day for about 10 minutes about etiquette, character development, moral
+                    education, respecting others, and gaining excellent values. As a result, I can claim that what I am
+                    today is solely due to my school, which is the best institution in my opinion.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about10.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    Teamwork is an important ability that schools teach. Schools are frequently the first places where
+                    youngsters have the opportunity to collaborate with children who are different from them.
+                    Collaboration is essential for the team and individual success. Students are taught that the success
+                    of a team depends on each individual component functioning together.<br><br><br>
+
+                    
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about11.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    <h1>FAQs on School</h1>
+                    <h3>Q.1 Why must every child go to school?</h3>
+
+                    A.1 It is essential for every child to go to school as the school teaches us lessons that cannot be
+                    acquired anywhere else. The experience is one a kind and along with education, we learn many other
+                    things like socializing, extra-curricular activities and more.<br><br><br>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about12.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lead">
+                <p>
+                    <h3> Q.2 What does school teach us?</h3>
+
+                    A.2 School teaches us some of the great things like first of all, it gives us basic education. It
+                    teaches us to develop our skills like art, dance, public speaking and more. Most importantly, it
+                    teaches us discipline.
+            </div>
+            <div class="col-lg-4">
+                <img src="image/about13.jpg" class="hh"alt=""> 
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-lg-4">
+                <H4>OUR ADDRESS</H4>
+                <h6>KASHYAP PUBLIC SCHOOL</h6>
+                710-B,Kashyap public school Bijnor<br>
+                near by Morrell park
+            </div>
+            <div class="col-lg-1"></div><BR><BR>
+            <div class="col-lg-2"><a href="about.html" class="link">ABOUT</a><BR><br><a href="gallery.html"
+                    class="link">GALLERY</a><BR><br><a href="facility.html" class="link">FACILITY</a><BR><br><a
+                    href="contact.html" class="link">CONTACT US</a></div><br><br>
+            <div class="col-lg-2"></div><BR><BR>
+            <div class="col-lg-3">
+                <h6><a href="mailto:Salaunikashyap2@gmail.com">Salaunikashyap@gmail.com</a></h6>
+                <h6>Call me <a href="tell:+8273143540">+91-8273143540</a></h6>
+                <h6>Whatsapp<a href="https://api.whatsapp.com/send?phone=8273143540">+91-8273143540</a></h6>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
